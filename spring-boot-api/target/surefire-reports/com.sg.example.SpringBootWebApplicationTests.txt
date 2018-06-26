@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: com.sg.example.SpringBootWebApplicationTests
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 46.436 sec <<< FAILURE! - in com.sg.example.SpringBootWebApplicationTests
+testRoosterServiceFail(com.sg.example.SpringBootWebApplicationTests)  Time elapsed: 0.266 sec  <<< FAILURE!
+java.lang.AssertionError: JSON path "$.sounds"
+Expected: is "kocoraco"
+     but: was "cocorico"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:74)
+	at org.springframework.test.web.servlet.result.JsonPathResultMatchers$1.match(JsonPathResultMatchers.java:86)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.sg.example.SpringBootWebApplicationTests.testRoosterServiceFail(SpringBootWebApplicationTests.java:50)
+

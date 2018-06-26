@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.sg.example.SpringBootWebApplicationTests" time="0.351" tests="2" errors="0" skipped="0" failures="1">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\bin"/>
+    <property name="java.vm.version" value="25.121-b13"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\Thameem Ansari\Desktop\SB\spring-boot-api"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Thameem Ansari\Desktop\SB\spring-boot-api"/>
+    <property name="java.runtime.version" value="1.8.0_121-b13"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\THAMEE~1\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 7"/>
+    <property name="classworlds.conf" value="C:\Users\Thameem Ansari\Desktop\SB\.metadata\.plugins\org.eclipse.m2e.launching\launches\m2conf8366189279425297516.tmp"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_121\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Program Files (x86)/Java/jre1.8.0_40/bin/client;C:/Program Files (x86)/Java/jre1.8.0_40/bin;C:/Program Files (x86)/Java/jre1.8.0_40/lib/i386;C:\ProgramData\Oracle\Java\javapath;C:\apache-ant-1.9.3\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\apache-ant-1.9.3\bin;C:\Program Files\Java\jdk1.8.0_121\bin;C:\Users\Thameem Ansari\Desktop\spring-tool-suite-3.8.3.RELEASE-e4.6.2-win32\sts-bundle\sts-3.8.3.RELEASE;;."/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="6.1"/>
+    <property name="user.home" value="C:\Users\Thameem Ansari"/>
+    <property name="user.timezone" value="Asia/Singapore"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="Thameem Ansari"/>
+    <property name="java.class.path" value="/C:/Users/Thameem Ansari/Desktop/spring-tool-suite-3.8.3.RELEASE-e4.6.2-win32/sts-bundle/sts-3.8.3.RELEASE/plugins/org.eclipse.m2e.maven.runtime_1.7.0.20160603-1931/jars/plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_121\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -B test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_121"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_121\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_121\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_121\jre\classes"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Users\Thameem Ansari\Desktop\SB\spring-boot-api\EMBEDDED"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testRoosterServiceFail" classname="com.sg.example.SpringBootWebApplicationTests" time="0.266">
+    <failure message="JSON path &quot;$.sounds&quot;&#10;Expected: is &quot;kocoraco&quot;&#10;     but: was &quot;cocorico&quot;" type="java.lang.AssertionError">java.lang.AssertionError: JSON path "$.sounds"
+Expected: is "kocoraco"
+     but: was "cocorico"
+	at org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:20)
+	at org.springframework.test.util.JsonPathExpectationsHelper.assertValue(JsonPathExpectationsHelper.java:74)
+	at org.springframework.test.web.servlet.result.JsonPathResultMatchers$1.match(JsonPathResultMatchers.java:86)
+	at org.springframework.test.web.servlet.MockMvc$1.andExpect(MockMvc.java:171)
+	at com.sg.example.SpringBootWebApplicationTests.testRoosterServiceFail(SpringBootWebApplicationTests.java:50)
+</failure>
+    <system-out><![CDATA[Configuring TestNG with: TestNG652Configurator
+14:31:44,449 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+14:31:44,450 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback-test.xml]
+14:31:44,450 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback.xml] at [file:/C:/Users/Thameem%20Ansari/Desktop/SB/spring-boot-api/target/classes/logback.xml]
+14:31:45,006 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+14:31:45,178 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+14:31:45,208 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [STDOUT]
+14:31:45,391 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - This appender no longer admits a layout as a sub-component, set an encoder instead.
+14:31:45,391 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - To ensure compatibility, wrapping your layout in LayoutWrappingEncoder.
+14:31:45,391 |-WARN in ch.qos.logback.core.ConsoleAppender[STDOUT] - See also http://logback.qos.ch/codes.html#layoutInsteadOfEncoder for details
+14:31:45,394 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [org.springframework.web] to ERROR
+14:31:45,394 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [org.springframework.web] to false
+14:31:45,394 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[org.springframework.web]
+14:31:45,395 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting level of logger [com.sg] to DEBUG
+14:31:45,395 |-INFO in ch.qos.logback.classic.joran.action.LoggerAction - Setting additivity of logger [com.sg] to false
+14:31:45,395 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[com.sg]
+14:31:45,396 |-INFO in ch.qos.logback.classic.joran.action.RootLoggerAction - Setting level of ROOT logger to ERROR
+14:31:45,396 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [STDOUT] to Logger[ROOT]
+14:31:45,396 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+14:31:45,397 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@52f759d7 - Registering current configuration as safe fallback point
+
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.5.1.RELEASE)
+
+2018-06-26 14:31:47 INFO  c.s.e.SpringBootWebApplicationTests - Starting SpringBootWebApplicationTests on ThameemAnsari with PID 7472 (started by Thameem Ansari in C:\Users\Thameem Ansari\Desktop\SB\spring-boot-api)
+2018-06-26 14:31:47 DEBUG c.s.e.SpringBootWebApplicationTests - Running with Spring Boot v1.5.1.RELEASE, Spring v4.3.6.RELEASE
+2018-06-26 14:31:47 INFO  c.s.e.SpringBootWebApplicationTests - No active profile set, falling back to default profiles: default
+2018-06-26 14:31:56 INFO  c.s.e.SpringBootWebApplicationTests - Started SpringBootWebApplicationTests in 10.059 seconds (JVM running for 14.071)
+2018-06-26 14:31:57 INFO  c.s.e.controller.SearchController - In side post request
+2018-06-26 14:31:57 INFO  c.sg.example.services.RoosterService - In side service layer
+2018-06-26 14:31:57 INFO  c.s.e.controller.SearchController - Result from post requestcocorico
+]]></system-out>
+  </testcase>
+  <testcase name="testRoosterServicePass" classname="com.sg.example.SpringBootWebApplicationTests" time="0.085"/>
+</testsuite>
